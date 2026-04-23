@@ -1508,7 +1508,7 @@ html,body{overflow-x:hidden;
     body{background-image: url(images/hero.jpg);
     background-size: cover;
     background-position: center;
-    background-attachment: fixed;
+    background-attachment: scroll;
     background-repeat: no-repeat;
     width: 100%;
     }
