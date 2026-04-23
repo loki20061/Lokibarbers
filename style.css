@@ -1505,10 +1505,10 @@ html,body{overflow-x:hidden;
 
            /* mobile styles: 768px and below */
 @media only screen and (max-width: 768px) {
-    body{background-image: url(images/hero.jpg);
+    body{background-image: url(images/hero1.jpg);
     background-size: 100% 100%;
     background-position: center;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-repeat: no-repeat;
     width: 100%;
     }
