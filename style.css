@@ -1498,3 +1498,17 @@ button:hover ~ .cursor {
 @media(max-width:480px){
   .stats-grid{grid-template-columns:repeat(2,1fr)}
 }
+
+html,body{overflow-x:hidden;
+    width:100%;
+           position:relative;}
+
+           /* mobile styles: 768px and below */
+@media only screen and (max-width: 768px) {
+    body{background-image: url(images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    }
+}

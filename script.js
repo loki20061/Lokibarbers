@@ -450,7 +450,7 @@ function submitBooking() {
 Please confirm my booking. Thank you!`;
 
     const encoded = encodeURIComponent(message);
-    window.open(`https://wa.me/233541737618?text=${encoded}`, '_blank');
+    window.open(`https://wa.me/233592640100?text=${encoded}`, '_blank');
     closeBooking();
 }
 
